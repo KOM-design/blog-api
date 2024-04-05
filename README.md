@@ -1,4 +1,4 @@
-All API Endpointss, specifying their purpose, expected parameters, and response formats.
+All API Endpoints, specifying their purpose, expected parameters, and response formats.
 
 •	GET /api/posts: Retrieve a list of all blog posts.
 Purpose: Retrieve a list of all blog posts.
