@@ -1,6 +1,6 @@
 All API Endpointss, specifying their purpose, expected parameters, and response formats.
-•	GET /api/posts: Retrieve a list of all blog posts.
 
+•	GET /api/posts: Retrieve a list of all blog posts.
 Purpose: Retrieve a list of all blog posts.
 Expected Parameters: None.
 Response Format: An array of blog post objects. Each object should contain the following fields: id, title, content, created_at, updated_at, and category.
