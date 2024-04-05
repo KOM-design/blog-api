@@ -15,5 +15,7 @@ router.get('/posts/:id', getPostById);
 router.post('/posts', createPost);
 router.put('/posts/:id', updatePost);
 router.delete('/posts/:id', deletePost);
-
+router.get('/', (req, res) => {
+    res.send('Hello, this is Komal');
+  });
 export default router;

@@ -8,7 +8,9 @@ import { ConnectOptions, connect } from "mongoose"
 
 const app = express();
 export default app
-
+app.get('/', (req, res) => {
+  res.send('Hello, this is Komal');
+});
 app.use(bodyParser.json());
 app.use('/api', postRoutes); // Use postRoutes for '/api' endpoints
 
